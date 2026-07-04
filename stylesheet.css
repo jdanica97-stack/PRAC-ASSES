@@ -1,0 +1,30 @@
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #c4bebe;
+    flex-direction: column;
+    display: flex;
+}
+
+
+.header {
+    background: #f2f2f2;
+    text-align: center;
+
+}
+
+.nav {
+    background: #f2f2f2;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;    
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
