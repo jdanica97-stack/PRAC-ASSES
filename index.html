@@ -7,16 +7,80 @@
     <link rel="icon" type="image/jpeg" href="images/iconss.jpeg">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
-<body class="main">
+<body>
     <header class="header">
         <h1>My personal information</h1>
         <p>This is a simple webpage to display my personal information.</p>
-        <hr>
+
         <nav class="nav">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#location">Location</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
+
+
+    <main>
+        <section>
+            <article class="card" id="about">
+                <div class="intro">
+                    <div class="wrapper">
+                        <div class="image">
+                            <img src="/images/iconss.jpeg" alt="Profile Picture" width="200" height="200">
+                        </div>
+                        <div class="intro">
+                            <h2>My Photo</h2>
+                            <hr>
+                            <h2>About Me</h2>
+                            <p>Hello! My name is Jan Carl T. Maturan. I am a student at SMCC, majoring in Computer Science. I have a passion for web development and enjoy creating interactive and user-friendly websites.</p>
+                        </div> 
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="card" id="skills">
+                <div>
+                    <h2>My skills</h2>
+                    <p>Here are some of the skills I have developed:</p>
+                        <ul>    
+                        <li>Graphics Design</li>
+                        <li>Programming: Java, Python</li>
+                        <li>Computer System Servicing</li>
+                        <li>Communication</li>
+                    </ul>
+                </div>   
+                    <div>
+                        <h3>Hobbies</h3>
+                            <ul>
+                                <li>Playing video games</li>
+                                <li>Reading books</li>
+                                <li>Listening to music</li>
+                            </ul>
+                        </div>  
+            </article>
+
+
+            <article class="card" id="location">
+                <h2>My Location</h2>
+                <p>I am currently located in [York New], [Russia].</p>
+                <h3>Here</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109107.34629135109!2d124.7300703607061!3d9.12772714578501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x330071d48e0043c5%3A0x68cfcdf29acc233d!2sTuasan%20Falls!5e0!3m2!1sen!2sph!4v1783228215502!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+            </article>
+
+            <article class="card" id="contact">
+                <h2>Contact Me</h2>
+                <p>If you would like to get in touch with me, please feel free to reach out through the following channels:</p>
+                <ul>
+                    <li>Email: jancarl2878@gmnail.com</li>
+                    <li>Number: 123-456-7890</li>
+                    <li>Facebook: jancarl.maturan</li>
+                </ul>
+            </article>
+                    
+        </section>
+    </main>
 </body>
 </html>
