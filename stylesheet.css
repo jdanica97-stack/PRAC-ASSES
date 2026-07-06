@@ -26,7 +26,14 @@ body{
     padding: 10px 20px;
     text-align: center; 
     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+
 }
+
+.nav a:hover{
+    background-color: #1e0404;
+
+}
+
 
 .image img {
     flex-shrink: 0;
@@ -55,4 +62,30 @@ body{
     width: 95%;
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#about:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+#skills:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+#location:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+#contact:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
